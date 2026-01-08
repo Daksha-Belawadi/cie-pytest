@@ -1,0 +1,4 @@
+FROM python:3
+WORKDIR  /gym
+COPY . .
+CMD ["python", "gym.py"]
