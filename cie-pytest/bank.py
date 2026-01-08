@@ -12,4 +12,4 @@ if __name__ == "__main__":
     Account_holder_name="Daksha\n"
     Account_type="Current\n"
     Balance="50000\n"
-    print(bank_details("Account_number:,Account_holder:,Account_type:,Balance:"))
+    print(bank_details("Account_number,Account_holder,Account_type,Balance"))
